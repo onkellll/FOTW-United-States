@@ -1,0 +1,218 @@
+#navbar {
+
+    background-color: #f2d856;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    transition: top 0.3s;
+
+   }   
+
+   #navbar a {
+
+    float: left;
+    display: block;
+    color: white;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+
+   }
+
+   #navbar a:hover {
+
+    background-color: #efec9c;
+    color: black;
+    
+   }
+
+
+
+body {
+    text-align: center;
+    height: 100%;  
+    margin: 0;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+    .header {
+        padding: 180px; 
+        text-align: center; 
+        background-image:url(/bilder/CityWhithYellowSide.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: rgb(255, 248, 246); 
+        text-shadow: 2px 2px 4px #000000;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        }
+
+       
+        .header h1 {
+            font-size: 80px;
+            }
+            
+
+
+.section {
+
+    text-align: center;
+}
+      
+.bar {
+    overflow: hidden;
+    background-color: #f9f9b8;
+  }
+  
+  
+  .bar a {
+    float: left;
+    display: block;
+    color: #f9f9b8;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+ 
+  .bar a.right {
+    float: right;
+  }
+  
+  
+  .bar a:hover {
+    background-color: #f9f9b8;
+    color: #f9f9b8;
+  }
+   
+
+
+body .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(bilde);
+}
+
+.wrapper {
+    margin: 100px auto;
+    width: 90%;
+}
+
+img {
+    max-width: 350px;
+    float: left;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    margin-right: 60px;
+}
+
+.text-box {
+    color: #000000;
+}
+
+.text-box h2 {
+    font-size: 39px;
+    text-shadow: 2px 2px 4px #4d4e57;
+}
+
+
+.text-box p {
+    font-size: 23px;
+    text-shadow: 2px 2px 4px #4d4e57;
+}
+
+* {
+
+ margin: 0;
+ padding: 0;
+ font-family: consolas;
+
+}
+
+body .way {
+
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 800vh;
+background: #000000;
+
+}
+
+.wavy {
+
+  position: relative;
+  -webkit-box-reflect: below -12px linear-gradient(transparent, rgba(0,0,0,0.2));
+
+}
+
+
+
+.wavy span {
+
+  position: relative;
+  display: inline-block;
+  color: #000000;
+  font-size: 1em;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  animation: animate 2s ease-in-out infinite;
+animation-delay: calc(0.1s * var(--i));
+
+}
+
+@keyframes animate {
+
+  0% {
+    transform: translateY(0px);
+  }
+
+20% {
+transform: translateY(-20px);
+}
+
+40%,100% {
+  transform: translateY(0px);
+}
+
+}
+
+@import url('https://font.googleapis.com/css<?family=Poppins:100,200,300,400,500,600,700,800,900');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+
+}  
+
+
+.body {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background: #010615;
+
+}
+
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #f2d856;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
