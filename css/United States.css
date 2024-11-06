@@ -38,10 +38,10 @@ body {
     font-family: 'Times New Roman', Times, serif;
     }
 
-    .header {
+    .header { 
         padding: 180px; 
         text-align: center; 
-        background-image:url(/bilder/CityWhithYellowSide.jpg);
+        background-image:url(/bilder/CityWhithYellowSide.jpg/);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
